@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int sum =0 ,i ,n;
+clrscr();
+printf("enter the n number");// n is the number of integers to be added
+scanf("%d",&n);
+for(i=0;i<=n;i++){
+sum=sum+i;
+}
+printf("The sum of n integers is %d",sum);//sum is the variable stores the sum of n integers
+getch();
+return 0;
+}
