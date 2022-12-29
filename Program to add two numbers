@@ -1,0 +1,9 @@
+/*program to add two numbers */
+#include<stdio.h>
+Void main ()
+{
+int a,b;
+Printf("enter any two numbers ");
+Scanf(" %d%d",&a,&b);
+Printf("The sum is %d",a+b);
+}
