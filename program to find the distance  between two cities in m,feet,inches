@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float n,feet,inches,centimeter;int meter;
+clrscr();
+printf("enter the distance between two cities in km\n");
+scanf("%f",&n);
+meter=n*1000;
+feet=3280.84*n;
+inches=39370.079*n;
+centimeter=100000*n;
+printf("meter=%d\n feet=%f\n inches=%f\n centimeter=%f",meter,feet,inches,centimeter);
+getch();
+}
