@@ -5,7 +5,7 @@
 
 int main()
 {
-    int bonus,cy,yoj,yos;
+    int bonus,cy,yoj,yos;//cy=current year ,yoj=year of joining, yos=year of service//
     printf("Enter the current year and year of joining");
     scanf("%d %d",&cy,&yoj);
     yos=yoj-cy;
