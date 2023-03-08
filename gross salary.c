@@ -4,7 +4,7 @@
 
 int main()
 {
-    float bs,gs,da,hra;
+    float bs,gs,da,hra;// bs=basic salary,gs=gross salary,da=dearness allowance,hra= house rent allowance//
     printf("enter the basic salary");
     scanf("%f",&bs);
     if(bs<1500){
