@@ -15,7 +15,7 @@ int main()
         hra=500;
         da=bs*98/100;
     }
-    gs=bs+hra+da;
+    gs=bs+hra+da;//formula to calculate gross salary//
     printf("gross salary= Rs. %f",gs);
     return 0;
 }
