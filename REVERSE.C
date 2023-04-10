@@ -6,7 +6,7 @@ int arr[5]={2,3,6,8,4};
 int n=5;
 int i;
 clrscr();
-for(i=n-1;i>=0;i--)
+for(i=n-1;i>=0;i--)//for loop used to print the reverse of an array 
 {
 printf("%d\n",arr[i]);
 }
