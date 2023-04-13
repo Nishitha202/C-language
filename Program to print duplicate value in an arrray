@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n;
+int a[10]={2,3,4,3,3};
+for(i=0;i<5;i++)
+{
+if(a[i]%3==0)
+{
+printf("The %d is the duplicate value",a[i]);
+}
+}
+}
