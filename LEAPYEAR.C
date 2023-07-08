@@ -6,7 +6,7 @@ int year;
 clrscr();
 printf("enter a year\n");
 scanf("%d",&year);
-if(year%400==0)
+if(year%400==0)//if statement to check whether a year is leap or not
 {
 printf("It is a leap year",year);
 }
