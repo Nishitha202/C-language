@@ -1,0 +1,33 @@
+//Smallest missing value 
+
+#include <stdio.h>
+int missingterm(int arr[],int n){
+ 
+ for(int i=0;i<n;i++){
+     int flag=0;
+     for(int j=0;j<n;j++){
+         if(arr[j]==i){
+             flag=1;
+         }
+     }
+     if(flag==0){
+         printf("The missing value is %d",i);
+         return 0;
+     }
+ }
+    
+return 0;
+}
+int main() {
+    // Write C code here
+int arr[]={-1,1,0,2,4,-5};
+int n=sizeof(arr)/sizeof(arr[0]);
+
+missingterm(arr,n);
+
+    return 0;
+}
+
+//output
+
+The missing value is 3
